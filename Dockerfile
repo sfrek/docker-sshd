@@ -9,6 +9,6 @@ RUN \
 
 ADD ./run.sh /usr/bin/run.sh
 
-EXPOSE 22
+EXPOSE 22822
 
 CMD ["/usr/bin/run.sh"]
