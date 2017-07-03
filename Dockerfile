@@ -12,11 +12,7 @@ RUN \
 		nmap-scripts \
 		openssh \
 		tcpdump \
-		tcptraceroute \
-		&& \
-	mkdir -p ~/.ssh && \
-	curl -s -XGET https://github.com/sfrek.keys > ~/.ssh/authorized_keys && \
-	chmod 0440 ~/.ssh/authorized_keys
+		tcptraceroute
 
 ADD ./run.sh /usr/bin/run.sh
 
