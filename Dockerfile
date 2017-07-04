@@ -5,6 +5,7 @@ RUN \
 		bind-tools \
 		ca-certificates \
 		curl \
+		ldap-clients \
 		nmap \
 		nmap-ncat \
 		nmap-nping \
