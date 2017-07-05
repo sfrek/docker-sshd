@@ -5,12 +5,12 @@ RUN \
 		bind-tools \
 		ca-certificates \
 		curl \
-		ldap-clients \
 		nmap \
 		nmap-ncat \
 		nmap-nping \
 		nmap-nselibs \
 		nmap-scripts \
+		openldap-clients \
 		openssh \
 		tcpdump \
 		tcptraceroute
