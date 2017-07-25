@@ -5,6 +5,7 @@ RUN \
 		bind-tools \
 		ca-certificates \
 		curl \
+		jq \
 		nmap \
 		nmap-ncat \
 		nmap-nping \
